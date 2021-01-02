@@ -29,27 +29,23 @@ export default function SectionTypography() {
       <div className={classes.container}>
         <div id="typography">
           <div className={classes.title}>
-            <h2>A partir de agora permita-se crescer</h2>
+            <h2>A partir de agora permita que seu business evolua</h2>
           </div>
           <GridContainer>
-            <div className={classes.typo}>
               <h1>Estamos focados no seu resultado</h1>
-            </div>
-            <div className={classes.typo}>
-              <div className={classes.note}></div>
               <p>
               Estruturamos seu business de forma completa para o online, oferecendo insights por meio de mentoria para que sua empresa tenha melhores resultadosor, e ainda montamos planos 100% personalizados e eficazes para o seu business online.
               </p>
-            </div>
+              <p>
+            Vitor e Pedro atua nesse mercado há mais de um ano, participamos da comunidade Sobral, conhecida como a melhor comunidade de gestores de tráfego. Nasceu a partir do desejo de querer empreender e utilizar nossos conhecimentos para alavancar seus resultados no online. Pedro atuava em uma empresa b2b no mercado nacional e Vitor atua no suporte de e-commerce b2b da Imaginarium. Mais de 10 mil reais investidos em marketing, mais de um R$750.000 faturados. Temos como principal objetivo levar o resultado aos nosso clientes, estruturando planos personalizados que funcionem para o seu business.
+              </p>
             <div className={classes.typo}>
               <div className={classes.note}></div>
               <Quote
-                text="O ser insano consiste em fazer as mems"
-                author=" Kanye West, Musician"
+                text="Insanidade consiste em fazer sempre as mesmas coisas e esperar resultados diferentes"
+                author=" Albert Einstein"
               />
             </div>
-            
-            
           </GridContainer>
         </div>
         <div className={classes.space50} />
