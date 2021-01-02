@@ -29,10 +29,10 @@ export default function Components(props) {
     <div>
       <Header
         brand="Agencia VP"
-        color="transparent"
+        color="Black"
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "Black"
         }}
         {...rest}
       />
@@ -66,9 +66,7 @@ export default function Components(props) {
         <GridItem md={12} className={classes.textCenter}>
           <Link href="/login">
             <a className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
+              
             </a>
           </Link>
         </GridItem>
