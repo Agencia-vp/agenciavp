@@ -38,9 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="NextJS Material Kit"
-        rightLinks={<HeaderLinks />}
-        fixed
+        brand="Agência VP"
         color="transparent"
         changeColorOnScroll={{
           height: 400,
@@ -55,13 +53,24 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>NextJS Material Kit.</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material Kit based on Material-UI and NextJS.
+                  Consultoria e Gestão de Tráfego.
                 </h3>
               </div>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
+
+      <GridContainer>
+            <GridItem>
+              <div className={classes.brand}>
+                <h1 className={classes.title}>NextJS Material Kit.</h1>
+                <h3 className={classes.subtitle}>
+                  Consultoria e Gestão de Tráfego.
+                </h3>
+              </div>
+            </GridItem>
+          </GridContainer>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionBasics />
