@@ -48,13 +48,7 @@ export default function SectionTypography() {
                 author=" Kanye West, Musician"
               />
             </div>
-            <div className={classes.typo}>
-              <div className={classes.note}>Muted Text</div>
-              <Muted>
-                I will be the leader of a company that ends up being worth
-                billions of dollars, because I got the answers...
-              </Muted>
-            </div>
+            
             <div className={classes.typo}>
               <div className={classes.note}>Primary Text</div>
               <Primary>
