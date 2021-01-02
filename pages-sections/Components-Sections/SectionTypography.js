@@ -28,29 +28,33 @@ export default function SectionTypography() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id="typography">
+          <div className={classes.title}>
+          </div>
           <GridContainer>
-          <div className={classes.typo}>
-              <div className={classes.note}>Quote</div>
-              <Quote
-                text=" Insanidade é continuar fazendo sempre a mesma coisa e esperar resultados diferentes."
-                author=" Albert Einstein"
-              />
-            </div>  
             <div className={classes.typo}>
-              
-              <h2>Conheça a Agência VP</h2>
-           
+              <h1>Agência PV</h1>
+            </div>
             <div className={classes.typo}>
               <div className={classes.note}>Paragraph</div>
               <p>
-               Ola somos uma agência.
+                Agência focada 
+                Fazemos uma análise panorâmica da sua estratégia digital,
+                oferecendo insights para um resultado melhor,
+                além disso, estruturamos planos eficazes para o seu negócio online.
               </p>
             </div>
-            
+            <div className={classes.typo}>
+              <div className={classes.note}>Quote</div>
+              <Quote
+                text="Insanidade é sempre fazer as mesmas coisas e esperar resultados diferentes"
+                author="Albert Einstein"
+              />
+            </div>
           </GridContainer>
         </div>
-          
         </div>
+        <div className={classes.space50} />
+      </div>
     </div>
   );
 }
