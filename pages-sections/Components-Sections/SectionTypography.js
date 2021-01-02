@@ -44,9 +44,8 @@ export default function SectionTypography() {
               <Quote
                 text="Insanidade consiste em fazer sempre as mesmas coisas e esperar resultados diferentes"
                 author=" Albert Einstein"
-              />
-              <p>Saiba mais sobre nossos serviços aqui: https://prezi.com/view/uvt6u7cZ1dstQFVGNhG1/ </p>
-              
+              />              <br />
+              <p><a href="https://prezi.com/view/uvt6u7cZ1dstQFVGNhG1/">Saiba mais sobre nossos serviços aqui</a></p>
             </div>
           </GridContainer>
         </div>
