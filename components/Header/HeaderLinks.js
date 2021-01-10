@@ -35,6 +35,8 @@ export default function HeaderLinks(props) {
         Saiba Mais
         </Button>
       </ListItem>
+      />
+
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
