@@ -37,7 +37,7 @@ export default function Footer(props) {
                 className={classes.block}
                 target="_blank"
               >
-Istagram              </a>
+Instagram              </a>
             </ListItem>
             
           </List>
