@@ -7,7 +7,6 @@ class MyDocument extends Document {
     return (
       <html lang="pt-br">
         <Head>
-
           <meta charSet="utf-8" />
           <meta
             name="viewport"
@@ -20,6 +19,21 @@ class MyDocument extends Document {
             sizes="76x76"
             href={require("assets/img/apple-icon.png")}
           />
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '402770304289550');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=402770304289550&ev=PageView&noscript=1"
+/></noscript>
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
@@ -30,28 +44,6 @@ class MyDocument extends Document {
             href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
             rel="stylesheet"
           />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN8RM5N1N3"></script>
-        <script>
-        .dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-
-         gtag('config', 'G-LN8RM5N1N3');
-        </script>
-        <script>
-        !function(f,b,e,v,n,t,s)
-         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-         n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-       'https://connect.facebook.net/en_US/fbevents.js');
-         fbq('init', '402770304289550');
-         fbq('track', 'PageView');
-        </script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=402770304289550&ev=PageView&noscript=1"/></noscript>
         </Head>
         <body>
           <div id="page-transition"></div>
