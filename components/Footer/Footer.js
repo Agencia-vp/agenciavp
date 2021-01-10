@@ -43,9 +43,9 @@ Istagram              </a>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , Feito com {" "}
+          &copy; {1900 + new Date().getYear()} , Feito com
           <Favorite className={classes.icon} /> por Agencia VP
-          </a>{" "}
+          </a>
         </div>
       </div>
     </footer>
