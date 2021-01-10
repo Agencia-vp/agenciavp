@@ -90,37 +90,7 @@ export default function ProductSection() {
             />
           </GridItem>
         </GridContainer>
-      </div>
-    </div>
-  );
-}
-export default function ProductSection(props) {
-  const classes = useStyles();
-  const { ...rest } = props;
-  const imageClasses = classNames(
-    classes.imgRaised,
-    classes.imgRoundedCircle,
-    classes.imgFluid
-  );
-  const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
-  return (
-    <div>
-      <Header
-        color="transparent"
-        brand="NextJS Material Kit"
-        rightLinks={<HeaderLinks />}
-        fixed
-        changeColorOnScroll={{
-          height: 200,
-          color: "white"
-        }}
-        {...rest}
-      />
-      <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div>
-          <div className={classes.container}>
-            <GridContainer justify="center">
+                    <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>
                 <div className={classes.profile}>
                   <div>
@@ -266,10 +236,7 @@ export default function ProductSection(props) {
                 />
               </GridItem>
             </GridContainer>
-          </div>
-        </div>
       </div>
-      <Footer />
     </div>
   );
 }
