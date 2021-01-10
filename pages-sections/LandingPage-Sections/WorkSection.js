@@ -36,7 +36,7 @@ export default function WorkSection() {
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-               Quero agendar uma conversa
+               Quero Agendar!
               </Button>
 
         </GridItem>
