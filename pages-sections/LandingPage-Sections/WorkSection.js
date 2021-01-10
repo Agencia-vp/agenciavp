@@ -20,14 +20,24 @@ export default function WorkSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
+          <h2 className={classes.title}>Tenha seu primeiro de forma gratuita</h2>
           <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
-            collaboration. We will responde get back to you in a couple of
-            hours.
+            O Objetivo de nosso trabalho consiste em levar para sua empresa o resultado que almeja. 
+            Preecha os campos para conhecer melhor o seu business e para agendar 30 minutos conosco.
+            Te esperamos!
+
           </h4>
-          <div class="typeform-widget" data-url="https://form.typeform.com/to/FAwifoY1?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+          <Button
+                color="danger"
+                size="lg"
+                href="https://zz3y1f433nw.typeform.com/to/FAwifoY1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-play" />
+               Quero agendar uma conversa
+              </Button>
+
         </GridItem>
       </GridContainer>
     </div>

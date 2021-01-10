@@ -46,7 +46,16 @@ Vitor e Pedro                <br />
               <CardBody>
                 <p className={classes.description}>
                   Vitor e Pedro atuam nesse mercado por mais de um ano, participamos da comunidade Sobral, conhecida como a melhor comunidade de gestores de marketing digital. Nasceu a partir do desejo de querer empreender e utilizar nossos conhecimentos para alavancar seus resultados no online. Pedro atuava em uma empresa b2b no mercado nacional e Vitor atua no suporte de e-commerce b2b da Imaginarium. Mais de 10 mil reais investidos em marketing, mais de um R$750.000 faturados. Temos como principal objetivo levar o resultado aos nosso clientes, estruturando planos personalizados que funcionem para o seu business.
-                </p>
+                </p
+                <Button
+                color="danger"
+                size="lg"
+                href="https://prezi.com/p/kedkibpeh0p1/?present=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-play" />
+Saiba mais sobre nossos resultados              </Button>
               </CardBody>
             </Card>
           </GridItem>
