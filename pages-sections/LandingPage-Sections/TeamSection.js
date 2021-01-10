@@ -45,12 +45,9 @@ Vitor e Pedro                <br />
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Vitor e Pedro atua nesse mercado há mais de um ano, participamos da comunidade Sobral, conhecida como a melhor comunidade de gestores de tráfego. Nasceu a partir do desejo de querer empreender e utilizar nossos conhecimentos para alavancar seus resultados no online. Pedro atuava em uma empresa b2b no mercado nacional e Vitor atua no suporte de e-commerce b2b da Imaginarium. Mais de 10 mil reais investidos em marketing, mais de um R$750.000 faturados. Temos como principal objetivo levar o resultado aos nosso clientes, estruturando planos personalizados que funcionem para o seu business.
+                  Vitor e Pedro atuam nesse mercado por mais de um ano, participamos da comunidade Sobral, conhecida como a melhor comunidade de gestores de marketing digital. Nasceu a partir do desejo de querer empreender e utilizar nossos conhecimentos para alavancar seus resultados no online. Pedro atuava em uma empresa b2b no mercado nacional e Vitor atua no suporte de e-commerce b2b da Imaginarium. Mais de 10 mil reais investidos em marketing, mais de um R$750.000 faturados. Temos como principal objetivo levar o resultado aos nosso clientes, estruturando planos personalizados que funcionem para o seu business.
                 </p>
               </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-
-              </CardFooter>
             </Card>
           </GridItem>
         </GridContainer>
