@@ -43,6 +43,7 @@ import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 export default function ProductSection() {
+  const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames(
     classes.imgRaised,
@@ -50,7 +51,6 @@ export default function ProductSection() {
     classes.imgFluid
   );
   const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
-  const classes = useStyles();
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
@@ -96,9 +96,40 @@ export default function ProductSection() {
               vertical
             />
           </GridItem>
-                <GridContainer justify="center">
-
-           <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
+        </GridContainer>
+      </div>
+      <GridContainer justify="center">
+              <GridItem xs={12} sm={12} md={6}>
+                <div className={classes.profile}>
+                  <div>
+                    <img src={profile} alt="..." className={imageClasses} />
+                  </div>
+                  <div className={classes.name}>
+                    <h3 className={classes.title}>Christian Louboutin</h3>
+                    <h6>DESIGNER</h6>
+                    <Button justIcon link className={classes.margin5}>
+                      <i className={"fab fa-twitter"} />
+                    </Button>
+                    <Button justIcon link className={classes.margin5}>
+                      <i className={"fab fa-instagram"} />
+                    </Button>
+                    <Button justIcon link className={classes.margin5}>
+                      <i className={"fab fa-facebook"} />
+                    </Button>
+                  </div>
+                </div>
+              </GridItem>
+            </GridContainer>
+            <div className={classes.description}>
+              <p>
+                An artist of considerable range, Chet Faker — the name taken by
+                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
+                and records all of his own music, giving it a warm, intimate
+                feel with a solid groove structure.{" "}
+              </p>
+            </div>
+            <GridContainer justify="center">
+              <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills
                   alignCenter
                   color="primary"
@@ -207,14 +238,6 @@ export default function ProductSection() {
                             />
                           </GridItem>
                         </GridContainer>
-                      )
-                    }
-                  ]}
-                />
-              </GridItem>
-                    </GridContainer>
-        </GridContainer>
-      </div>
     </div>
   );
 }

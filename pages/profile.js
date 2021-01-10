@@ -11,8 +11,6 @@ import Favorite from "@material-ui/icons/Favorite";
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import Button from "components/CustomButtons/Button.js";
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
@@ -31,6 +29,19 @@ import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 import styles from "assets/jss/nextjs-material-kit/pages/profilePage.js";
+
+const useStyles = makeStyles(styles);
+
+// @material-ui/icons
+import Chat from "@material-ui/icons/Chat";
+import VerifiedUser from "@material-ui/icons/VerifiedUser";
+import Fingerprint from "@material-ui/icons/Fingerprint";
+// core components
+import GridContainer from "components/Grid/GridContainer.js";
+import GridItem from "components/Grid/GridItem.js";
+import InfoArea from "components/InfoArea/InfoArea.js";
+
+import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
 
