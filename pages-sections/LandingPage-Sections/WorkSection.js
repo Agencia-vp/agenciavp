@@ -20,7 +20,7 @@ export default function WorkSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Tenha seu primeiro de forma gratuita</h2>
+          <h2 className={classes.title}>Tenha seu primeiro plano de forma gratuita</h2>
           <h4 className={classes.description}>
             O Objetivo de nosso trabalho consiste em levar para sua empresa o resultado que almeja. 
             Preecha os campos para conhecer melhor o seu business e para agendar 30 minutos conosco.
