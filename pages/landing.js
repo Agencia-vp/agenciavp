@@ -52,7 +52,7 @@ export default function LandingPage(props) {
               Estruturamos seu business de forma completa para o online.
               Oferecendo insights por meio de mentoria para que sua 
               empresa tenha melhores resultados.
-              Criamos planos e gerenciamos de forma 100% personalizado
+              Criamos planos e gerenciamos de forma 100% personalizada
               de forma eficaz atingirmos o seu objetivo.
 
               </h4>
