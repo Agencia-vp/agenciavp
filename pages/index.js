@@ -1,77 +1,84 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// react components for routing our app without refresh
-import Link from "next/link";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+
 // @material-ui/icons
+
 // core components
 import Header from "components/Header/Header.js";
-import HeaderLinks from "components/Header/HeaderLinks.js";
 import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
+import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import SectionTypography from "pages-sections/Components-Sections/SectionTypography.js";
+import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
+// Sections for this page
+import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
+import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
+import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 
-import styles from "assets/jss/nextjs-material-kit/pages/components.js";
+const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
-export default function Components(props) {
+export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
     <div>
       <Header
+        color="transparent"
+        routes={dashboardRoutes}
         brand="Agencia VP"
-        color="Black"
+        rightLinks={<HeaderLinks />}
+        fixed
         changeColorOnScroll={{
           height: 400,
-          color: "Black"
+          color: "white"
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/nextjs_header.jpg")}>
+      <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
-            <GridItem>
-              <div className={classes.brand}>
-                <h1 className={classes.title}>Consultoria de Marketing Online.</h1>
-                <h3 className={classes.subtitle}>
-                  
-                </h3>
-              </div>
+            <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title}>Seu Business Agora com uma nova perspectiva</h1>
+              <h4>
+              Estruturamos seu business de forma completa para o online.
+              Oferecendo insights por meio de mentoria para que sua 
+              empresa tenha melhores resultados.
+              Criamos planos e gerenciamos de forma 100% personalizada
+              de forma eficaz atingirmos o seu objetivo.
+
+              </h4>
+              <br />
+              <Button
+                color="danger"
+                size="lg"
+                href="https://calendly.com/contato-agenciavp/15min"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-play" />
+               Quero agendar uma conversa
+              </Button>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
-
-      <GridContainer>
-            <GridItem>
-              <div className={classes.brand}>
-                <h1 className={classes.title}></h1>
-              </div>
-            </GridItem>
-          </GridContainer>
-
       <div className={classNames(classes.main, classes.mainRaised)}>
-
-        <SectionTypography />
-
-        <GridItem md={12} className={classes.textCenter}>
-          <Link href="/login">
-            <a className={classes.link}>
-              
-            </a>
-          </Link>
-        </GridItem>
+        <div className={classes.container}>
+          <ProductSection />
+          <TeamSection />
+          <WorkSection />
+        </div>
       </div>
-      
+      <Footer />
     </div>
   );
 }

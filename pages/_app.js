@@ -50,7 +50,6 @@ export default class MyApp extends App {
       <React.Fragment>
         <Head>
           <title>Agencia VP</title>
-          <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN8RM5N1N3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -59,7 +58,6 @@ export default class MyApp extends App {
 
   gtag('config', 'G-LN8RM5N1N3');
 </script>
-<!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -75,7 +73,6 @@ export default class MyApp extends App {
 <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=404378814171448&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Facebook Pixel Code -->
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
