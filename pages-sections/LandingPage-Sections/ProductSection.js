@@ -43,6 +43,13 @@ import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 export default function ProductSection() {
+  const { ...rest } = props;
+  const imageClasses = classNames(
+    classes.imgRaised,
+    classes.imgRoundedCircle,
+    classes.imgFluid
+  );
+  const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
   const classes = useStyles();
   return (
     <div className={classes.section}>
@@ -89,6 +96,8 @@ export default function ProductSection() {
               vertical
             />
           </GridItem>
+                <GridContainer justify="center">
+
            <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills
                   alignCenter
@@ -203,6 +212,7 @@ export default function ProductSection() {
                   ]}
                 />
               </GridItem>
+                    </GridContainer>
         </GridContainer>
       </div>
     </div>
