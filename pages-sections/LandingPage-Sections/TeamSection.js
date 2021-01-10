@@ -45,8 +45,12 @@ Vitor e Pedro                <br />
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Vitor e Pedro atuam nesse mercado por mais de um ano, participamos da comunidade Sobral, conhecida como a melhor comunidade de gestores de marketing digital. Nasceu a partir do desejo de querer empreender e utilizar nossos conhecimentos para alavancar seus resultados no online. Pedro atuava em uma empresa b2b no mercado nacional e Vitor atua no suporte de e-commerce b2b da Imaginarium. Mais de 10 mil reais investidos em marketing, mais de um R$750.000 faturados. Temos como principal objetivo levar o resultado aos nosso clientes, estruturando planos personalizados que funcionem para o seu business.
-                </p>
+                <br /><br />  Vitor e Pedro atuam nesse mercado por mais de um ano, participamos da comunidade Sobral, conhecida como a melhor comunidade de gestores de marketing digital. Nasceu a partir do desejo de querer empreender e utilizar nossos conhecimentos para alavancar seus resultados no online. Pedro atuava em uma empresa b2b no mercado nacional e Vitor atua no suporte de e-commerce b2b da Imaginarium. Mais de 10 mil reais investidos em marketing, mais de um R$750.000 faturados. Temos como principal objetivo levar o resultado aos nosso clientes, estruturando planos personalizados que funcionem para o seu business.
+               Estruturamos seu business de forma completa para o online.
+              Oferecendo insights por meio de mentoria para que sua 
+              empresa tenha melhores resultados.
+              Criamos planos e gerenciamos de forma 100% personalizada
+              de forma eficaz atingirmos o seu objetivo. </p>
                 <Button 
                 color="danger"
                 size="lg"
@@ -55,7 +59,7 @@ Vitor e Pedro                <br />
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-Saiba sobre nossos resultados              </Button>
+Resultados              </Button>
               </CardBody>
             </Card>
           </GridItem>

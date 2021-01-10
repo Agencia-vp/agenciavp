@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Agencia VP"
+        brand=""
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -48,15 +48,8 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Seu Business Agora com uma nova perspectiva</h1>
-              <h4>
-              Estruturamos seu business de forma completa para o online.
-              Oferecendo insights por meio de mentoria para que sua 
-              empresa tenha melhores resultados.
-              Criamos planos e gerenciamos de forma 100% personalizada
-              de forma eficaz atingirmos o seu objetivo.
-
-              </h4>
-              <br />
+              
+             
               <Button
                 color="danger"
                 size="lg"
@@ -66,7 +59,8 @@ export default function LandingPage(props) {
               >
                 <i className="fas fa-play" />
                Quero agendar uma conversa
-              </Button>
+              </Button> <br />
+              <br /><br />
             </GridItem>
           </GridContainer>
         </div>
