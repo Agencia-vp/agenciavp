@@ -44,13 +44,6 @@ import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 export default function ProductSection() {
   const classes = useStyles();
-  const { ...rest } = props;
-  const imageClasses = classNames(
-    classes.imgRaised,
-    classes.imgRoundedCircle,
-    classes.imgFluid
-  );
-  const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
