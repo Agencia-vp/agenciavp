@@ -42,8 +42,6 @@ import work3 from "assets/img/examples/cynthia-del-rio.jpg";
 import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
-import styles from "assets/jss/nextjs-material-kit/pages/profilePage.js";
-
 export default function ProductSection() {
   const classes = useStyles();
   return (
