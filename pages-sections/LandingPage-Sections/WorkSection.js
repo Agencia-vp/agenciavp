@@ -28,6 +28,7 @@ export default function WorkSection() {
 
           </h4>
           <Button
+          justify="center"
                 color="danger"
                 size="lg"
                 href="https://zz3y1f433nw.typeform.com/to/FAwifoY1"
