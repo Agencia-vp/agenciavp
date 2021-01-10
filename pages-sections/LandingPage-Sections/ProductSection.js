@@ -98,6 +98,7 @@ export default function ProductSection() {
           </GridItem>
         </GridContainer>
       </div>
+      <div>
       <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>
                 <div className={classes.profile}>
@@ -238,6 +239,7 @@ export default function ProductSection() {
                             />
                           </GridItem>
                         </GridContainer>
+                        </div>
     </div>
   );
 }
