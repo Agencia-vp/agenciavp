@@ -47,23 +47,25 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>á â ã à  asdasd </h1>
+              <h1 className={classes.title}>Seu Business Agora com uma nova perspectiva</h1>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+              Estruturamos seu business de forma completa para o online.
+              Oferecendo insights por meio de mentoria para que sua 
+              empresa tenha melhores resultados.
+              Criamos planos e gerenciamos de forma 100% personalizado
+              de forma eficaz atingirmos o seu objetivo.
+
               </h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://calendly.com/contato-agenciavp/15min"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-                Watch video
+               Quero agendar uma conversa
               </Button>
             </GridItem>
           </GridContainer>
