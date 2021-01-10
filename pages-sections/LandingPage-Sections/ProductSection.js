@@ -239,8 +239,6 @@ export default function ProductSection() {
                             />
                           </GridItem>
                         </GridContainer>
-  </div>
-  </div>
     </div>
   );
 }
