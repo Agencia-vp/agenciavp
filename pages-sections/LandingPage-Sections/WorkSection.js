@@ -38,7 +38,17 @@ export default function WorkSection() {
                 <i className="fas fa-play" />
                Quero Agendar!
               </Button>
-
+              <Button
+          justify="center"
+                color="danger"
+                size="lg"
+                href="            https://www.linker.fit/auvIQXJI"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-play" />
+               Chamar no Whats!
+              </Button>
         </GridItem>
       </GridContainer>
     </div>
