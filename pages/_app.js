@@ -50,7 +50,6 @@ export default class MyApp extends App {
       <React.Fragment>
         <Head>
           <title>Agencia VP</title>
-          <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=404378814171448&ev=PageView"/>
 
         </Head>
         <Component {...pageProps} />

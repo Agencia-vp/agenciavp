@@ -34,6 +34,7 @@ class MyDocument extends Document {
           <div id="page-transition"></div>
           <Main />
           <NextScript />
+                    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=404378814171448&ev=PageView"/>
         </body>
       </html>
     );
