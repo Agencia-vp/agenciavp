@@ -43,14 +43,13 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=404378814171448&ev=PageView"/>
       <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Seu Business Agora com uma nova perspectiva</h1>
-              
-             
+              <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=404378814171448&ev=PageView"/>
+
               <Button
                 color="danger"
                 size="lg"
