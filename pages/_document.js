@@ -14,7 +14,6 @@ class MyDocument extends Document {
           />
           <meta name="theme-color" content="#000000" />
           <link rel="shortcut icon" href={require("assets/img/favicon.png")} />
-                               <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=404378814171448&ev=PageView"/></noscript>
 
           <link
             rel="apple-touch-icon"
