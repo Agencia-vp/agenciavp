@@ -30,6 +30,7 @@ export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
+              <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=404378814171448&ev=PageView"/>
     <div>
       <Header
         color="transparent"
@@ -66,7 +67,6 @@ export default function LandingPage(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-            <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=404378814171448&ev=PageView"/>
         <div className={classes.container}>
           <ProductSection />
           <TeamSection />
